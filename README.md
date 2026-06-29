@@ -24,18 +24,18 @@ CONTRACTGUARD is a 4-layer multi-agent system that:
 
 ## Architecture
 
-Agent 1 — The Watcher
+Agent 1 - The Watcher
 Detects and logs every AI action on a contract.
 
-Agent 2 — The Auditor
+Agent 2 - The Auditor
 Evaluates each change using Legal Fidelity Score.
 Classifies as FAITHFUL / MODIFIED / HALLUCINATED.
 
-Agent 3 — The Risk Scorer
+Agent 3 - The Risk Scorer
 Scores each change deterministically.
 Outputs minimum human review queue.
 
-Agent 4 — The Reporter
+Agent 4 - The Reporter
 Generates defensible audit trail PDF.
 
 ---
@@ -46,7 +46,7 @@ Python · LangGraph · LangChain · ChromaDB · Groq · Streamlit · FPDF2
 ---
 
 ## Dataset
-Tested on CUAD — Contract Understanding Atticus Dataset
+Tested on CUAD - Contract Understanding Atticus Dataset
 510 real legal contracts · 13,000+ expert annotations
 
 ---
